@@ -1,0 +1,50 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+  }
+  
+
+  
+  .table-container {
+    max-width: 600px; 
+    width: 100%; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; 
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+
+  .rate-info {
+    text-align: center; 
+    margin-top: 10px; 
+    font-weight: normal; 
+  }

@@ -1,0 +1,18 @@
+.menu-container {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #2b4e7e;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5f6770;
+  }
